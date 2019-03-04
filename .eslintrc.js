@@ -25,6 +25,7 @@ module.exports = {
     'generator-star-spacing': 'off',
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'indent': 'off',
     // 缩进4个空格
     'rules': {
       'vue/script-indent': ['error', 4, {'baseIndent': 1}]
